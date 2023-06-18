@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+body{
+      width: 100%;
+       min-height: 100vh;
+       background-color: black;
+       overflow: hidden;
+}
+
+.main{
+    display: flex;
+    
+    justify-content: space-between;
+    color: aliceblue;
+    font-weight: bold;
+height: 12vh;
+animation: main 1s ease-in-out;}
+@keyframes main{
+    0%{
+        transform: translateY(-100%);
+    }
+}
+nav li{
+   display: inline-block;
+   list-style-type: none;
+   padding: 20px 20px;
+   font-weight: 600;
+   font-size: 20px;
+}
+nav li:hover{
+    font-size: 25px;
+}
+img{
+    height: 100%;
+}
+
+
+.con{
+    
+    color: aliceblue;
+    
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    
+}
+
+    
+
+.king{ 
+    animation: king 1.5s ease-in-out;
+    width: 50%;
+    margin-top: 8%;
+    margin-left: 5%;
+
+}
+@keyframes king {
+    0%{
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+}
+h1{
+    letter-spacing: 8px;
+    font-size: 80px;
+}
+h3{
+    margin-top: 5%;
+}
+p{
+    margin-top: 2%;
+}
+button{
+    margin-top: 2%;
+}
+hi{
+    color:red
+}
+hi:hover{
+    font-size: 50px;
+}
+button:hover{
+    font-size: 25px;
+    background-color:yellow;
+}
+.car{
+    width: 50%;
+    margin-top: 10%;
+    z-index: -1;
+}
+.car img{
+    width: 40rem;
+    animation:  img 3s ease-in-out
+}
+@keyframes img{
+    0%{
+        transform: translateX(100%);
+    }
+    
+}
